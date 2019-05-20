@@ -1,0 +1,28 @@
+.notification__block
+  z-index 100
+  position absolute
+  width 100%
+  display none
+  justify-content center
+  top 110px
+  &-message
+    font-size 15px
+    border-radius 5px
+    padding 5px 15px
+    background #ffc
+    border 1px solid #ee1
+    color #aa0
+    &.-alert
+      background #fcc
+      border 1px solid #e01
+      color #a33
+    &.-info
+      background #ccf
+      border 1px solid #10e
+      color #33a
+    &.-success
+      background #cfc
+      border 1px solid #0e1
+      color #3a3
+  &.-visible
+    display flex
